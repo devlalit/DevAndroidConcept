@@ -16,7 +16,7 @@
         android:theme="@style/Theme.DevAndroidConceptsNew"
         tools:targetApi="31">
         <activity
-            android:name=".dagger2withmvvm.DaggerMVVMActivity"
+            android:name=".junit.instrumentalTesting.ExpressoActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.DevAndroidConceptsNew">
@@ -26,6 +26,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".junit.instrumentalTesting.SecondActivity"/>
     </application>
 
 </manifest>
